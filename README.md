@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=Bv9Js3QLOLY&list=RDCMUCmXmlB4-HJytD7wek0Uo97A&in
 <br><br>Huge shoutout to JavaScript Mastery
 
 # Functionality, optimal.
-Currently, I'm at the same place as the tutorial that showed me how to create this react app. If you would like to login to the chat app, 
+Currently, I'm at the same place as the tutorial that showed me how to create this react app. If you would like to login to the chat app I recreated, 
 you can do so by going to the link provided here: 
 <br><br>
 https://chatapplikemessenger.netlify.app
