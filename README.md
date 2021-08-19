@@ -5,8 +5,9 @@ https://www.youtube.com/watch?v=Bv9Js3QLOLY&list=RDCMUCmXmlB4-HJytD7wek0Uo97A&in
 
 # Functionality, optimal.
 Currently, I'm at the same place as the tutorial that showed me how to create this react app. If you would like to login to the chat app, 
-you can do so by going to the link provided here: <br><br>
-https://www.chatapplikemessenger.netlify.app
+you can do so by going to the link provided here: 
+<br><br>
+https://chatapplikemessenger.netlify.app
 <br><br>
 Then you would login with your gmail (or any gmail account), and firebase handles authentication of how a user is able to sign in.
 Currently, the Facebook login isn't functional, but I'm going to be troubleshooting reasons as to why this may be happening with the JavaScript Mastery dev that created 
