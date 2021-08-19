@@ -6,8 +6,8 @@ import { useAuth } from '../context/AuthContext';
 import axios from 'axios';
 
 const Chats = () => {
-    // const projectId = "7b9744d1-7ef5-40aa-a1ab-123b6c6bc2fe";
-    // const key = "09684fad-edf2-401a-a590-86b6a3505414";
+    const projectId = process.env.REACT_APP_CHAT_ENGINE_ID;
+    const key = process.env.REACT_APP_CHAT_ENGINE_KEY;
     const history = useHistory();
     const { user } = useAuth();
     const [loading, setLoading] = useState(true);
@@ -32,7 +32,7 @@ const Chats = () => {
         }
         axios.get('https://api.chatengine.io/users/me', { 
             headers: {  
-            "project-Id": "7b9744d1-7ef5-40aa-a1ab-123b6c6bc2fe",
+            "project-Id": projectId,
             "user-name": user.email,
             "user-secret": user.uid
             } 
@@ -50,7 +50,7 @@ const Chats = () => {
 
                 axios.post('https://api.chatengine.io/users/', 
                     formData,
-                    { headers: { "private-key": "09684fad-edf2-401a-a590-86b6a3505414" } }
+                    { headers: { "private-key": key } }
                 )
                 .then(() => setLoading(false))
                 .catch((error) => console.log(error));
@@ -75,7 +75,7 @@ const Chats = () => {
 
             <ChatEngine 
                 height="calc(100vh - 66px)"
-                projectID="7b9744d1-7ef5-40aa-a1ab-123b6c6bc2fe"
+                projectID={projectId}
                 userName={user.email}
                 userSecret={user.uid}
             />
