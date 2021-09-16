@@ -85,7 +85,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img href="https://user-images.githubusercontent.com/62074841/133490662-1c50786a-094e-4a9f-9eb9-d02b777256f2.png" />
+![image](https://user-images.githubusercontent.com/62074841/133553325-a9263dc7-1cd0-4e4f-aa12-99ade948baba.png)
+
 <p>
  There is this YouTube channel called JavaScript Mastery. Their content is literally gold to developers world-wide. 
  I follow the channel pretty religiously nowadays, and like to practice things that they do on it, and also try to 
